@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farhan.excersie"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <application
+        android:allowBackup="true"
+              android:icon="@drawable/icon"
+              android:label="Workout+"
+        android:excludeFromRecents="true"
+        android:theme="@style/AppBaseTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CHEST"
+ 
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Configure_workout_schedule"
+ 
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sunday"
+ 
+            android:parentActivityName=".Configure_workout_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Configure_workout_schedule" />
+        </activity>
+        <activity
+            android:name=".tuesday"
+            android:label="@string/title_activity_tuesday"
+ 
+            android:parentActivityName=".Configure_workout_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Configure_workout_schedule" />
+        </activity>
+        <activity
+            android:name=".wednesday"
+ 
+            android:parentActivityName=".Configure_workout_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Configure_workout_schedule" />
+        </activity>
+        <activity
+            android:name=".thursday"
+ 
+            android:parentActivityName=".Configure_workout_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Configure_workout_schedule" />
+        </activity>
+        <activity
+            android:name=".friday"
+ 
+            android:parentActivityName=".Configure_workout_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Configure_workout_schedule" />
+        </activity>
+        <activity
+            android:name=".configure_exercises"
+ 
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".chest"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".back"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".biceps"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".triceps"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".abs"
+ 
+            android:parentActivityName="configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".legs"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".shoulders"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".schedule"
+ 
+            android:parentActivityName=".Configure_workout_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Configure_workout_schedule" />
+        </activity>
+        <activity
+            android:name=".Start_workout"
+ 
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Train"
+ 
+            android:parentActivityName=".Start_workout" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.Start_workout" />
+        </activity>
+        <activity
+            android:name=".exercise_selection"
+ 
+            android:parentActivityName=".configure_exercises" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.configure_exercises" />
+        </activity>
+        <activity
+            android:name=".history"
+ 
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.farhan.excersie.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

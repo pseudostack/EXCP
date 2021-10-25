@@ -1,0 +1,3 @@
+include ':app', ':AndroidBootstrap', ':widget', ':wheel'
+project(':widget').projectDir = new File('android-wheel/widget')
+project(':wheel').projectDir = new File('android-wheel-master/app')

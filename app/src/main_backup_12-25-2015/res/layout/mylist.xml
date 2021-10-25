@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--  ListRow Left sied Thumbnail image -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mylist"
+    android:padding="3dip"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dip">
+
+
+
+
+<!-- Title Of Song-->
+    <TextView
+        android:id="@+id/text1"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:textSize="35dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+<!-- Rightend Arrow -->
+<ImageView android:layout_width="40dp"
+    android:layout_height="35dp"
+    android:src="@drawable/arrow"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"/>
+
+</RelativeLayout>

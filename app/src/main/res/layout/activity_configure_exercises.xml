@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff3970ff">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0c6dff">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Abdominals"
+                android:layout_weight="1"
+                android:id="@+id/textView"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Arms"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="22dp"
+                android:minWidth="120dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable"
+                android:layout_weight="1"
+                android:id="@+id/s1"
+                android:layout_column="1"
+                android:checked="false"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-5dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable"
+                android:layout_weight="1"
+                android:id="@+id/s2"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-5dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:minWidth="200dp"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/abs"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/arms"
+                android:layout_weight="1"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ToggleButton                 android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_abs"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:checked="false"
+                        android:textOff="Disabled"
+                android:textOn="View Workouts"
+                android:minWidth="0dp"
+                android:maxWidth="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:nestedScrollingEnabled="false"
+                    android:background="#FFFFFF" />
+
+                <ToggleButton                 android:layout_weight="1"                         android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/edit_arms"
+                android:layout_row="6"
+                android:layout_column="3"
+                android:checked="false"
+                        android:layout_marginRight="5dp"
+                        android:textOn="View Workouts"
+                        android:textOff="Disabled" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"><![CDATA[
+
+
+            android:layout_marginRight="5dp" />
+
+        ]]></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Back"
+                android:layout_weight="1"
+                android:id="@+id/textView3"
+
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="22dp"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Chest"
+                android:id="@+id/textView16"
+                android:layout_weight="1"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp"
+                android:textSize="22dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable"
+                android:layout_weight="1"
+                android:id="@+id/s3"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-5dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable"
+                android:layout_weight="1"
+                android:id="@+id/s4"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-5dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/back"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/chest"
+                android:layout_weight="1"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <ToggleButton                 android:layout_weight="1"                         android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/edit_back"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:checked="false"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textOn="View Workouts"
+                        android:textOff="Disabled" />
+
+
+                <ToggleButton                 android:layout_weight="1"                         android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/edit_chest"
+                android:layout_row="6"
+                android:layout_column="3"
+                android:checked="false"
+                        android:layout_marginRight="5dp"
+                        android:textOn="View Workouts"
+                        android:textOff="Disabled" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Legs"
+                android:layout_weight="1"
+                android:id="@+id/textView17"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Shoulders"
+                android:layout_weight="1"
+                android:id="@+id/textView18"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp"
+                android:textSize="22dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable"
+                android:layout_weight="1"
+                android:id="@+id/s5"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="-5dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable"
+                android:layout_weight="1"
+                android:id="@+id/s6"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-5dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView5"
+                android:layout_weight="1"
+                android:src="@drawable/legs"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView6"
+                android:layout_weight="1"
+                android:src="@drawable/shoulder"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:layout_marginRight="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ToggleButton                 android:layout_weight="1"                         android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/edit_legs"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:checked="false"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textOn="View Workouts"
+                        android:textOff="Disabled"
+                        android:layout_marginBottom="0dp" />
+
+
+  
+
+                <ToggleButton                 android:layout_weight="1"                         android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/edit_shoulders"
+                android:layout_row="6"
+                android:layout_column="3"
+                android:checked="false"
+                        android:layout_marginRight="5dp"
+                        android:textOn="View Workouts"
+                        android:textOff="Disabled" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>

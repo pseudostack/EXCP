@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">excersie</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chest">CHEST</string>
+    <string name="title_activity_configure_workout_schedule">Configure_workout_schedule</string>
+    <string name="title_activity_sunday">sunday</string>
+    <string name="title_activity_monday">monday</string>
+    <string name="title_activity_tuesday">tuesday</string>
+    <string name="title_activity_wednesday">wednesday</string>
+    <string name="title_activity_thursday">thursday</string>
+    <string name="title_activity_friday">friday</string>
+    <string name="title_activity_saturday">saturday</string>
+    <string name="title_activity_configure_exercises">configure_exercises</string>
+    <string name="title_activity_back">back</string>
+    <string name="title_activity_biceps">biceps</string>
+    <string name="title_activity_triceps">triceps</string>
+    <string name="title_activity_abs">abs</string>
+    <string name="title_activity_legs">legs</string>
+    <string name="title_activity_shoulders">shoulders</string>
+    <string name="title_activity_schedule">schedule</string>
+    <string name="title_activity_start_workout">Start_workout</string>
+    <string name="title_activity_train">Train</string>
+    <string name="title_activity_exercise_selection">exercise_selection</string>
+
+    <string name="title_activity_history">history</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
